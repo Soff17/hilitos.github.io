@@ -348,86 +348,86 @@
         
             <div class="container">
                 <div class="collapse" id="content1">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Escoja el servicio</option>
-                                <option>Dobladillo (Bastilla)</option>
-                                <option>Dobladillo (Bastilla) con Forro </option>
-                                <option>Ajuste de pierna</option>
-                                <option>Ajuste de cintura </option>
-                                <option>Ajuste de tiro</option>
-                                <option>Cambio de cierre</option>
-                                <option>Cambio de resorte </option>
-                                <option>Aumento de cintura</option>
-                                <option>Aumento laterales</option>
-                                <option>Zurcido por cada hoyo</option>
-                            </select>
-                        </div> 
-                        <div class="row">
-                          <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
-                            <div class="invalid-feedback">
-                              Es necesario llenar este campo!
-                            </div>
-                          </div>
-                          <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="form-group pb-3">
+                        <label for="SelectService" required></label>
+                        <select id="Servicio" name="Servicio" class="form-control" required>
+                            <option value="">Escoja un servicio</option>
+                            <option value="PANTALON: Dobladillo (Bastilla)">Dobladillo (Bastilla)</option>
+                            <option value="PANTALON: Dobladillo (Bastilla) con Forro">Dobladillo (Bastilla) con Forro </option>
+                            <option value="PANTALON: Ajuste de pierna">Ajuste de pierna</option>
+                            <option value="PANTALON: Ajuste de cintura ">Ajuste de cintura </option>
+                            <option value="PANTALON: Ajuste de tiro">Ajuste de tiro</option>
+                            <option value="PANTALON: Cambio de cierre">Cambio de cierre</option>
+                            <option value="PANTALON: Cambio de resorte">Cambio de resorte </option>
+                            <option value="PANTALON: Aumento de cintura">Aumento de cintura</option>
+                            <option value="PANTALON: Aumento laterales">Aumento laterales</option>
+                            <option value="PANTALON: Zurcido por cada hoyo">Zurcido por cada hoyo</option>
+                        </select>
+                    </div> 
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="costumer_name"></label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
+                        <div class="invalid-feedback">
+                          Es necesario llenar este campo!
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="costumer_surname"></label>
+                        <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
+                        <div class="invalid-feedback">
+                            Es necesario llenar este campo!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 mb-3">
+                        <label for="correo_electronico"></label>
+                        <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
+                        <div class="invalid-feedback">
+                            Es necesario llenar este campo!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="numero_telefonico"></label>
+                            <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
-                          </div>
                         </div>
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
-                            <div class="invalid-feedback">
-                                Es necesario llenar este campo!
-                            </div>
-                          </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="fecha"></label>
+                        <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
+                        <div class="invalid-feedback">
+                            Es necesario llenar este campo!
                         </div>
-                        <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
-                                <div class="invalid-feedback">
-                                    Es necesario llenar este campo!
-                                </div>
-                            </div>
-                          <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
-                            <div class="invalid-feedback">
-                                Es necesario llenar este campo!
-                            </div>
-                          </div>
-                          <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
-                            <div class="invalid-feedback">
-                                Es necesario llenar este campo!
-                            </div>
-                          </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="hora"></label>
+                        <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
+                        <div class="invalid-feedback">
+                            Es necesario llenar este campo!
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 d-flex justify-content-end">
-                                <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit">Enviar</button>
-                            </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-end">
+                            <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit" >Enviar</button>
                         </div>
-                      </form>
+                        <input type="hidden" name="_redirect" value="http://127.0.0.1:5500/hilitos.github.io/"/>
+                        <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
+                    </div>
+                  </form>
                       
                       <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
                       (function() {
                         'use strict';
                         window.addEventListener('load', function() {
-                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
                           var forms = document.getElementsByClassName('needs-validation');
-                          // Loop over them and prevent submission
                           var validation = Array.prototype.filter.call(forms, function(form) {
                             form.addEventListener('submit', function(event) {
                               if (form.checkValidity() === false) {
@@ -442,35 +442,35 @@
                       </script>
                 </div>
                 <div class="collapse" id="content2">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Escoja el servicio</option>
-                                <option>Dobladillo (Bastilla)</option>
-                                <option>Dobladillo (Bastilla) con Forro </option>
-                                <option>Ajuste de lateral</option>
-                                <option>Ajuste de cintura </option>
-                                <option>Cambio de cierre</option>
-                                <option>Cambio de botón (no incluye botón) </option>
-                                <option>Cambio de resorte </option>
-                                <option>Aumento de cintura</option>
-                                <option>Aumento laterales</option>
-                                <option>Zurcido por cada hoyo</option>
-                                <option>Cambio de forro</option>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="form-group pb-3">
+                            <label for="SelectService" required></label>
+                            <select id="Servicio" name="Servicio" class="form-control" required>
+                                <option value="">Escoja un servicio</option>
+                                <option value="FALDA: Dobladillo (Bastilla)">Dobladillo (Bastilla)</option>
+                                <option value="FALDA: Dobladillo (Bastilla) con Forro">Dobladillo (Bastilla) con Forro </option>
+                                <option value="FALDA: Ajuste de lateral">Ajuste de lateral</option>
+                                <option value="FALDA: Ajuste de cintura">Ajuste de cintura </option>
+                                <option value="FALDA: Cambio de cierre">Cambio de cierre</option>
+                                <option value="FALDA: Cambio de botón (no incluye botón)">Cambio de botón (no incluye botón) </option>
+                                <option value="FALDA: Cambio de resorte">Cambio de resorte </option>
+                                <option value="FALDA: Aumento de cintura">Aumento de cintura</option>
+                                <option value="FALDA: Aumento laterales">Aumento laterales</option>
+                                <option value="FALDA: Zurcido por cada hoyo">Zurcido por cada hoyo</option>
+                                <option value="FALDA: Cambio de forro">Cambio de forro</option>
                             </select>
                         </div> 
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
+                            <label for="costumer_name"></label>
+                            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
                             <div class="invalid-feedback">
                               Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                            <label for="costumer_surname"></label>
+                            <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -478,8 +478,8 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
+                            <label for="correo_electronico"></label>
+                            <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -487,22 +487,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
+                                <label for="numero_telefonico"></label>
+                                <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                                 <div class="invalid-feedback">
                                     Es necesario llenar este campo!
                                 </div>
                             </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
+                            <label for="fecha"></label>
+                            <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
+                            <label for="hora"></label>
+                            <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -510,8 +510,11 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 d-flex justify-content-end">
-                                <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit">Enviar</button>
+                              <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit" >Enviar</button>
                             </div>
+                            <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/services.html"/>
+                        <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
                         </div>
                       </form>
                       
@@ -537,17 +540,17 @@
                       </script>
                 </div>
                 <div class="collapse" id="content3">
-                    <form class="needs-validation" novalidate>
-                        <div class="custom-radio-container">
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline1">Vestido normal</label>
-                              </div>
-                            <div class="custom-control custom-radio custom-control-inline">
-                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                                <label class="custom-control-label" for="customRadioInline2">Vestido de fiesta</label>
-                            </div>
-                        </div>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="custom-radio-container">
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" value="Si" id="VestidoNormal" name="tipoVestido" class="custom-control-input">
+                        <label class="custom-control-label" for="VestidoNormal">Vestido normal</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" value="Si" id="VestidoFiesta" name="tipoVestido" class="custom-control-input">
+                        <label class="custom-control-label" for="VestidoFiesta">Vestido de fiesta</label>
+                      </div>
+                    </div>
                         <style>
                             .custom-radio-container {
                                 text-align: center;
@@ -570,37 +573,37 @@
                             
                             .custom-radio input[type="radio"]:checked + label {
                               background-color: #AB48A4;
-                              color: #fff;
+                              color: white;
                             }
                           </style>
                         <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Escoja el servicio</option>
-                                <option>Dobladillo (Bastilla)</option>
-                                <option>Dobladillo (Bastilla) con Forro </option>
-                                <option>Ajuste de lateral</option>
-                                <option>Ajuste de cintura </option>
-                                <option>Cambio de cierre</option>
-                                <option>Cambio de botón (no incluye botón) </option>
-                                <option>Cambio de resorte </option>
-                                <option>Aumento de cintura</option>
-                                <option>Aumento laterales</option>
-                                <option>Zurcido por cada hoyo</option>
-                                <option>Cambio de forro</option>
+                            <label for="SelectService" required></label>
+                            <select id="Servicio" name="Servicio" class="form-control" required>
+                              <option value="">Escoja el servicio</option>
+                                <option value="VESTIDO: Dobladillo (Bastilla)">Dobladillo (Bastilla)</option>
+                                <option value="VESTIDO: Dobladillo (Bastilla) con Forro">Dobladillo (Bastilla) con Forro </option>
+                                <option value="VESTIDO: Ajuste de lateral">Ajuste de lateral</option>
+                                <option value="VESTIDO: Ajuste de cintura">Ajuste de cintura </option>
+                                <option value="VESTIDO: Cambio de cierre">Cambio de cierre</option>
+                                <option value="VESTIDO: Cambio de botón (no incluye botón)">Cambio de botón (no incluye botón) </option>
+                                <option value="VESTIDO: Cambio de resorte">Cambio de resorte </option>
+                                <option value="VESTIDO: Aumento de cintura">Aumento de cintura</option>
+                                <option value="VESTIDO: Aumento laterales">Aumento laterales</option>
+                                <option value="VESTIDO: Zurcido por cada hoyo">Zurcido por cada hoyo</option>
+                                <option value="VESTIDO: Cambio de forro">Cambio de forro</option>
                             </select>
                         </div> 
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
+                            <label for="costumer_name"></label>
+                            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
                             <div class="invalid-feedback">
                               Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                            <label for="costumer_surname"></label>
+                            <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -608,8 +611,8 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
+                            <label for="correo_electronico"></label>
+                            <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -617,22 +620,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
+                                <label for="numero_telefonico"></label>
+                                <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                                 <div class="invalid-feedback">
                                     Es necesario llenar este campo!
                                 </div>
                             </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
+                            <label for="fecha"></label>
+                            <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
+                            <label for="hora"></label>
+                            <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -642,17 +645,17 @@
                             <div class="col-md-12 d-flex justify-content-end">
                                 <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit">Enviar</button>
                             </div>
+                            <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/services.html"/>
+                            <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                            <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
                         </div>
                       </form>
                       
                       <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
                       (function() {
                         'use strict';
                         window.addEventListener('load', function() {
-                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
                           var forms = document.getElementsByClassName('needs-validation');
-                          // Loop over them and prevent submission
                           var validation = Array.prototype.filter.call(forms, function(form) {
                             form.addEventListener('submit', function(event) {
                               if (form.checkValidity() === false) {
@@ -667,30 +670,31 @@
                       </script>
                 </div>
                 <div class="collapse" id="content4">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Ajuste de largo manga </option>
-                                <option>Ajuste de manga con Forro</option>
-                                <option>Ajuste lateral</option>
-                                <option>Cambio de cierre</option>
-                                <option>Zurcido por cada hoyo</option>
-                                <option>Cambio de botón (no incluye botón)</option>
-                                <option>Aumento laterales</option>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="form-group pb-3">
+                            <label for="SelectService" required></label>
+                            <select id="Servicio" name="Servicio" class="form-control" required>
+                              <option value="">Escoja un servicio</option>  
+                              <option value="BLUSAS: Ajuste de largo manga">Ajuste de largo manga </option>
+                                <option value="BLUSAS: Ajuste de manga con Forro">Ajuste de manga con Forro</option>
+                                <option value="BLUSAS: Ajuste lateral">Ajuste lateral</option>
+                                <option value="BLUSAS: Cambio de cierre">Cambio de cierre</option>
+                                <option value="BLUSAS: Zurcido por cada hoyo">Zurcido por cada hoyo</option>
+                                <option value="BLUSAS: Cambio de botón (no incluye botón)">Cambio de botón (no incluye botón)</option>
+                                <option value="BLUSAS: Aumento laterales">Aumento laterales</option>
                             </select>
                         </div> 
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
+                            <label for="costumer_name"></label>
+                            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
                             <div class="invalid-feedback">
                               Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                            <label for="costumer_surname"></label>
+                            <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -698,8 +702,8 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
+                            <label for="correo_electronico"></label>
+                            <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -707,22 +711,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
+                                <label for="numero_telefonico"></label>
+                                <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                                 <div class="invalid-feedback">
                                     Es necesario llenar este campo!
                                 </div>
                             </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
+                            <label for="fecha"></label>
+                            <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
+                            <label for="hora"></label>
+                            <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -732,17 +736,17 @@
                             <div class="col-md-12 d-flex justify-content-end">
                                 <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit">Enviar</button>
                             </div>
+                            <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/services.html"/>
+                        <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
                         </div>
                       </form>
                       
                       <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
                       (function() {
                         'use strict';
                         window.addEventListener('load', function() {
-                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
                           var forms = document.getElementsByClassName('needs-validation');
-                          // Loop over them and prevent submission
                           var validation = Array.prototype.filter.call(forms, function(form) {
                             form.addEventListener('submit', function(event) {
                               if (form.checkValidity() === false) {
@@ -757,31 +761,32 @@
                       </script>
                 </div>
                 <div class="collapse" id="content5">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Ajuste de largo manga </option>
-                                <option>Ajuste de manga con Forro</option>
-                                <option>Ajuste lateral</option>
-                                <option>Cambio de cierre</option>
-                                <option>Zurcido por cada hoyo</option>
-                                <option>Cambio de botón (no incluye botón)</option>
-                                <option>Aumento laterales</option>
-                                <option>Voltear cuello</option>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="form-group pb-3">
+                            <label for="SelectService" required></label>
+                            <select id="Servicio" name="Servicio" class="form-control" required>
+                              <option value="">Escoja un servicio</option>
+                              <option value="CAMISA: Ajuste de largo manga">Ajuste de largo manga </option>
+                                <option value="CAMISA: Ajuste de manga con Forro">Ajuste de manga con Forro</option>
+                                <option value="CAMISA: Ajuste lateral">Ajuste lateral</option>
+                                <option value="CAMISA: Cambio de cierre">Cambio de cierre</option>
+                                <option value="CAMISA: Zurcido por cada hoyo">Zurcido por cada hoyo</option>
+                                <option value="CAMISA: Cambio de botón (no incluye botón)">Cambio de botón (no incluye botón)</option>
+                                <option value="CAMISA: Aumento laterales">Aumento laterales</option>
+                                <option value="CAMISA: Voltear cuello">Voltear cuello</option>
                             </select>
                         </div> 
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
+                            <label for="costumer_name"></label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
                             <div class="invalid-feedback">
                               Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                            <label for="costumer_surname"></label>
+                        <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -789,8 +794,8 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
+                            <label for="correo_electronico"></label>
+                        <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -798,22 +803,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
+                              <label for="numero_telefonico"></label>
+                              <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                                 <div class="invalid-feedback">
                                     Es necesario llenar este campo!
                                 </div>
                             </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
+                            <label for="fecha"></label>
+                        <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
+                            <label for="hora"></label>
+                        <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -823,17 +828,17 @@
                             <div class="col-md-12 d-flex justify-content-end">
                                 <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit">Enviar</button>
                             </div>
+                            <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/services.html"/>
+                        <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
                         </div>
                       </form>
                       
                       <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
                       (function() {
                         'use strict';
                         window.addEventListener('load', function() {
-                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
                           var forms = document.getElementsByClassName('needs-validation');
-                          // Loop over them and prevent submission
                           var validation = Array.prototype.filter.call(forms, function(form) {
                             form.addEventListener('submit', function(event) {
                               if (form.checkValidity() === false) {
@@ -848,30 +853,31 @@
                       </script>
                 </div>
                 <div class="collapse" id="content6">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Ajuste de manga </option>
-                                <option>Ajuste de manga con Forro</option>
-                                <option>Ajuste lateral</option>
-                                <option>Cambio de cierre</option>
-                                <option>Zurcido por cada hoyo</option>
-                                <option>Cambio de botón (no incluye botón)</option>
-                                <option>Cambio de forro</option>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="form-group pb-3">
+                        <label for="SelectService" required></label>
+                        <select id="Servicio" name="Servicio" class="form-control" required>
+                            <option value="">Escoja un servicio</option>
+                                <option value="CHAMARRA: Ajuste de manga">Ajuste de manga </option>
+                                <option value="CHAMARRA: Ajuste de manga con Forro">Ajuste de manga con Forro</option>
+                                <option value="CHAMARRA: Ajuste lateral">Ajuste lateral</option>
+                                <option value="CHAMARRA: Cambio de cierre">Cambio de cierre</option>
+                                <option value="CHAMARRA: Zurcido por cada hoyo">Zurcido por cada hoyo</option>
+                                <option value="CHAMARRA: Cambio de botón (no incluye botón)">Cambio de botón (no incluye botón)</option>
+                                <option value="CHAMARRA: Cambio de forro">Cambio de forro</option>
                             </select>
                         </div> 
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
+                            <label for="costumer_name"></label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
                             <div class="invalid-feedback">
                               Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                            <label for="costumer_surname"></label>
+                        <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -879,8 +885,8 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
+                            <label for="correo_electronico"></label>
+                        <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -888,22 +894,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
+                              <label for="numero_telefonico"></label>
+                              <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                                 <div class="invalid-feedback">
                                     Es necesario llenar este campo!
                                 </div>
                             </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
+                            <label for="fecha"></label>
+                        <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
+                            <label for="hora"></label>
+                        <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -913,17 +919,17 @@
                             <div class="col-md-12 d-flex justify-content-end">
                                 <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit">Enviar</button>
                             </div>
+                            <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/services.html"/>
+                        <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
                         </div>
                       </form>
                       
                       <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
                       (function() {
                         'use strict';
                         window.addEventListener('load', function() {
-                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
                           var forms = document.getElementsByClassName('needs-validation');
-                          // Loop over them and prevent submission
                           var validation = Array.prototype.filter.call(forms, function(form) {
                             form.addEventListener('submit', function(event) {
                               if (form.checkValidity() === false) {
@@ -938,28 +944,28 @@
                       </script>
                 </div>
                 <div class="collapse" id="content7">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Seleccione el servicio </option>
-                                <option>Cambio de cierre</option>
-                                <option>Zurcido por cada hoyo</option>
-                                <option>Confección(no incluye tela)</option>
-                                <option>Fundas (no incluye tela)</option>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="form-group pb-3">
+                        <label for="SelectService" required></label>
+                        <select id="Servicio" name="Servicio" class="form-control" required>
+                            <option value="">Escoja un servicio</option>
+                                <option value="COJÍN: Cambio de cierre">Cambio de cierre</option>
+                                <option value="COJÍN: Zurcido por cada hoyo">Zurcido por cada hoyo</option>
+                                <option value="COJÍN Confección(no incluye tela)">Confección(no incluye tela)</option>
+                                <option value="COJÍN Fundas (no incluye tela)">Fundas (no incluye tela)</option>
                             </select>
                         </div> 
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
+                            <label for="costumer_name"></label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
                             <div class="invalid-feedback">
                               Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                            <label for="costumer_surname"></label>
+                        <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -967,8 +973,8 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
+                            <label for="correo_electronico"></label>
+                        <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -976,22 +982,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
+                              <label for="numero_telefonico"></label>
+                              <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                                 <div class="invalid-feedback">
                                     Es necesario llenar este campo!
                                 </div>
                             </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
+                            <label for="fecha"></label>
+                        <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
+                            <label for="hora"></label>
+                        <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -1001,17 +1007,17 @@
                             <div class="col-md-12 d-flex justify-content-end">
                                 <button class="btn btn-primary mb-5 mt-4 justify-content-end" type="submit">Enviar</button>
                             </div>
+                            <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/services.html"/>
+                        <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
                         </div>
                       </form>
                       
                       <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
                       (function() {
                         'use strict';
                         window.addEventListener('load', function() {
-                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
                           var forms = document.getElementsByClassName('needs-validation');
-                          // Loop over them and prevent submission
                           var validation = Array.prototype.filter.call(forms, function(form) {
                             form.addEventListener('submit', function(event) {
                               if (form.checkValidity() === false) {
@@ -1026,28 +1032,28 @@
                       </script>
                 </div>
                 <div class="collapse" id="content8">
-                    <form class="needs-validation" novalidate>
-                        <div class="form-group pb-3">
-                            <label for="inputState" required></label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Seleccione el servicio </option>
-                                <option>Cobinación pantalón (ajuste de pierna y bastilla)</option>
-                                <option>Cobinación pantalón (ajuste de cintura, ancho y bastilla)</option>
-                                <option>Combinación blusa o vestido (ajuste de talle y largo)</option>
-                                <option>Combinación blusa o vestido (ajuste de talle, manga y bastilla)</option>
+                  <form class="needs-validation" method="POST" action="https://submit-form.com/mcyuar5q" novalidate>
+                    <div class="form-group pb-3">
+                        <label for="SelectService" required></label>
+                        <select id="Servicio" name="Servicio" class="form-control" required>
+                            <option value="">Escoja un servicio</option>
+                                <option value="COMBINACIÓN: Cobinación pantalón (ajuste de pierna y bastilla)">Cobinación pantalón (ajuste de pierna y bastilla)</option>
+                                <option value="COMBINACIÓN: Cobinación pantalón (ajuste de cintura, ancho y bastilla)">Cobinación pantalón (ajuste de cintura, ancho y bastilla)</option>
+                                <option value="COMBINACIÓN: Combinación blusa o vestido (ajuste de talle y largo)">Combinación blusa o vestido (ajuste de talle y largo)</option>
+                                <option value="COMBINACIÓN: Combinación blusa o vestido (ajuste de talle, manga y bastilla)">Combinación blusa o vestido (ajuste de talle, manga y bastilla)</option>
                             </select>
                         </div> 
                         <div class="row">
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom01"></label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" value="" required>
+                            <label for="costumer_name"></label>
+                        <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" value="" required>
                             <div class="invalid-feedback">
                               Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-6 mb-3">
-                            <label for="validationCustom02"></label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" value="" required>
+                            <label for="costumer_surname"></label>
+                        <input type="text" class="form-control" id="Apellido" name="Apellido" placeholder="Apellido" value="" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -1055,8 +1061,8 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12 mb-3">
-                            <label for="validationCustom03"></label>
-                            <input type="text" class="form-control" id="validationCustom03" placeholder="Correo electrónico" required>
+                            <label for="correo_electronico"></label>
+                        <input type="email" class="form-control" id="Correo electrónico" name="Correo electrónico" placeholder="Correo electrónico" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
@@ -1064,25 +1070,28 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <label for="validationCustom03"></label>
-                                <input type="text" class="form-control" id="validationCustom03" placeholder="Número telefónico" required>
+                              <label for="numero_telefonico"></label>
+                              <input type="tel" class="form-control" id="Número telefónico" name="Número telefónico" placeholder="Número telefónico" required>
                                 <div class="invalid-feedback">
                                     Es necesario llenar este campo!
                                 </div>
                             </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom04"></label>
-                            <input type="text" class="form-control" id="validationCustom04" placeholder="Dìa" required>
+                            <label for="fecha"></label>
+                        <input type="date" class="form-control" id="Fecha del servicio" name="Fecha del servicio" placeholder="Día" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
                           </div>
                           <div class="col-md-4 mb-3">
-                            <label for="validationCustom05"></label>
-                            <input type="text" class="form-control" id="validationCustom05" placeholder="Hora" required>
+                            <label for="hora"></label>
+                        <input type="time" class="form-control" id="Hora del servicio" name="Hora del servicio" placeholder="Hora" required>
                             <div class="invalid-feedback">
                                 Es necesario llenar este campo!
                             </div>
+                            <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/services.html"/>
+                        <input type="hidden" name="_email.subject" value="Nuevo servicio Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Nuevo servicio para Hilitos Lili" />
                           </div>
                         </div>
                         <div class="row">
@@ -1093,13 +1102,10 @@
                       </form>
                       
                       <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
                       (function() {
                         'use strict';
                         window.addEventListener('load', function() {
-                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
                           var forms = document.getElementsByClassName('needs-validation');
-                          // Loop over them and prevent submission
                           var validation = Array.prototype.filter.call(forms, function(form) {
                             form.addEventListener('submit', function(event) {
                               if (form.checkValidity() === false) {
