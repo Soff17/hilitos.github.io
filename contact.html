@@ -138,28 +138,31 @@
                 </div>
             </div>
             <div class="form-inner-cont mx-auto" style="max-width:800px">
-                <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+                <form class="needs-validation" method="POST" action="https://submit-form.com/ianHs7A2" novalidate>
                     <div class="row align-form-map">
                         <div class="col-sm-6 form-input">
-                            <input type="text" name="w3lName" id="w3lName" placeholder="Nombre" />
+                            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" />
                         </div>
                         <div class="col-sm-6 form-input">
-                            <input type="email" name="w3lSender" id="w3lSender" placeholder="Correo" required="" />
+                            <input type="email" name="Correo electrónico" id="Correo electrónico" placeholder="Correo" required="" />
                         </div>
                         <div class="col-sm-6 form-input">
-                            <input type="text" name="w3lSubect" placeholder="Asunto" class="contact-input">
+                            <input type="text" name="Asunto" id="Asunto" placeholder="Asunto" class="contact-input">
                         </div>
                         <div class="col-sm-6 form-input">
-                            <input type="number" name="w3lPhone" placeholder="Número de Teléfono" class="contact-input">
+                            <input type="tel" name="Número telefónico" id="Número telefónico" placeholder="Número de Teléfono" class="contact-input">
                         </div>
                     </div>
                     <div class="form-input">
-                        <textarea placeholder="Mensaje" name="w3lMessage" id="w3lMessage" required=""></textarea>
+                        <textarea placeholder="Mensaje" name="Mensaje" id="Mensaje" required=""></textarea>
                     </div>
                     <div class="submit text-right">
                         <button type="submit" class="btn btn-style">Enviar
                             Mensaje</button>
                     </div>
+                    <input type="hidden" name="_redirect" value="http://127.0.0.1:5501/hilitos.github.io/contact.html"/>
+                        <input type="hidden" name="_email.subject" value="Contacto Hilitos Lili!" />
+                        <input type="hidden" name="_email.template.title" value="Contacto de cliente para Hilitos Lili" />
                 </form>
             </div>
         </div>
